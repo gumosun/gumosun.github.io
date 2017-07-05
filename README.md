@@ -57,5 +57,5 @@ section {
 1. Using jQuerry as beginning animaition 
 
 ### Author
-### Hao Sun
+#### Hao Sun
 Linkedin : https://www.linkedin.com/in/hao-sun-57287932/
