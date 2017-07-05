@@ -1,6 +1,6 @@
 # Hao's About Me Project
 
-## Screenshot
+### Screenshot
 ![Alt text](https://github.com/gumosun/gumosun.github.io/blob/master/screen_shot.png)
 
 ### Technologies Used
@@ -8,8 +8,8 @@
 1. CSS
 1. GitHub
 
-## Sample code
-#### CSS
+### Sample code
+##### CSS
 ```
 body {
   background-color:#f2f2d9;
@@ -27,7 +27,7 @@ section {
   text-align: center;
 }
 ```
-#### HTML
+##### HTML
 ```
 <html lang="en">
   <head>
@@ -51,11 +51,11 @@ section {
       </div>
     </header>
 ```
-## Problems/Future Improvements
+### Problems/Future Improvements
 1. Implement Javascript to be iteractive 
 1. Finish "My Works"
 1. Using jQuerry as beginning animaition 
 
-## Author
+### Author
 ### Hao Sun
 Linkedin : https://www.linkedin.com/in/hao-sun-57287932/
