@@ -1,2 +1,2 @@
-# gumosun.github.io
-Hao's about me project
+# Hao's About Me Project
+![Alt text](/images/Screen Shot_About Me.png)
