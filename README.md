@@ -1,15 +1,15 @@
 # Hao's About Me Project
 
-### Screenshot
+## Screenshot
 ![Alt text](https://github.com/gumosun/gumosun.github.io/blob/master/screen_shot.png)
 
 ### Technologies Used
-*HTML
-*CSS
-*GitHub
+1. HTML
+1. CSS
+1. GitHub
 
-### Sample code
-##### CSS
+## Sample code
+#### CSS
 body {
   background-color:#f2f2d9;
 }
@@ -26,7 +26,7 @@ section {
   text-align: center;
 }
 
-##### HTML
+#### HTML
 <html lang="en">
   <head>
       <meta charset="utf-8">
@@ -49,11 +49,11 @@ section {
       </div>
     </header>
     
-### Problems/Future Improvements
-*Implement Javascript to be iteractive 
-*Finish "My Works"
-*Using jQuerry as beginning animaition 
+## Problems/Future Improvements
+1. Implement Javascript to be iteractive 
+1. Finish "My Works"
+1. Using jQuerry as beginning animaition 
 
-### Author
-##### Hao Sun
+## Author
+### Hao Sun
 Linkedin : https://www.linkedin.com/in/hao-sun-57287932/
