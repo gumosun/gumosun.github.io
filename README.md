@@ -10,7 +10,7 @@
 
 ## Sample code
 #### CSS
-````````CSS```````
+```
 body {
   background-color:#f2f2d9;
 }
@@ -26,9 +26,9 @@ section {
   left: 0;
   text-align: center;
 }
-``````
+```
 #### HTML
-````````HTML`````````
+```
 <html lang="en">
   <head>
       <meta charset="utf-8">
@@ -50,7 +50,7 @@ section {
         </ul>
       </div>
     </header>
-    `````````
+```
 ## Problems/Future Improvements
 1. Implement Javascript to be iteractive 
 1. Finish "My Works"
