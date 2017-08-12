@@ -1,117 +1,202 @@
-body {
-  background-image: url("images/background.jpg");
-}
+
+
 section {
-  height:600px;
+  height:auto;
 }
 .headbar{
   width:100%;
-  height:90px;
-  background-color: black;
-  position: absolute;
-  top: 0;
-  left: 0;
-  text-align: center;
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  padding:10px 20px;
+  justify-content: space-between;
+  background-color: #D6DCDC;
+  align-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 }
-.cover{
-  width:85%;
-  height: 500px;
-  background: rgba(0,0,0,.8);
-  position: relative;
-  top:100px;
-  left:7%;
-}
-.link {
-  margin:30px auto;
-}
-.headli {
-  display:inline-block;
-  margin:auto 40px;
-  font-size: 25px;
-}
-li a {
-  text-decoration: none;
-  color:white;
+.myname {
   font-family: 'Fjalla One', sans-serif;
+  font-size: 4vh;
+  margin: auto 0px;
 }
-/*body {
-  background: url("https://www.wunsystems.com/wp-content/uploads/2015/11/work-desk.jpg");
-  background-position: center;
-  background-size:cover;
-  opacity: 0.2;
-  width:100%;
-  height:800px;
-  z-index: -1; position:relative;
-}*/
+
+.navigation{
+  display: flex;
+  margin: auto 40px;
+}
+.headli a{
+  color:black;
+  margin: 20px 20px;
+  font-size: 3vh;
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  justify-content: flex-end;
+}
+
+.content {
+  width:auto;
+  height:auto;
+  display: flex;
+  flex: row;
+  justify-content: center;
+  margin: 100px auto 100px auto;
+}
+
 .img-me {
     border: 5px solid white;
-    margin: 20px auto;
-    position: absolute;
-    left:3px;
+    margin: 10% auto;
+    border-radius: 5%;
     }
-h1 {
-  font-size :60px;
-  color: white;
-  font-family: 'Ubuntu Condensed', sans-serif;
-  margin:5px auto;
-}
-.textmain{
-  position: absolute;
-  top:65px;
-  left:355px;
-  color:white;
+
+.textmain{ 
+  margin: auto 30px auto 20px;;
 }
 .textmain h3 {
-  font-size: 27px;
+  font-size: 26px;
   font-family: 'Fjalla One', sans-serif;
   margin: 5px auto;
 }
 .textmain p {
-  font-size: 20px;
-  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 3.5vh;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .section2 {
   position:relative;
-  width:100%;
-  margin:30px 0 5px 0;
+  width: auto;
+  margin: 30px 0px 0px 0px;
   text-align: center;
-}
-h2 {
-  text-align: center;
-  font-size:15px;
-  font-color:black;
-  margin: 0;
-  padding: 0;
-}
-.clearfix {
-  width:100%;
-}
-.clearfix ul{
-    margin-right: auto;
-    margin-left: auto;
-}
-.clearfix:after {
-   content: " ";
-   visibility: hidden;
-   display: block;
-   height: 0;
-   clear: both;
-   margin:0;
-   width:100%;
-   text-align: center;
-}
-.works {
-  display:inline-block;
-  width: 320px;
-  height:220px;
-  margin: 0px 35px;
-  padding: 5px;
-  border: 1px grey;
-  left: 6%;
-  box-sizing: border-box;
-  background-color:#f2f2f2;
-  float:left;
-  position:relative;
+  background-color: #F2F3F3;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 }
 
+h2 {
+  width:100%;
+  border-bottom: 1px solid black;
+  text-align: center;
+  font-size:25px;
+  color:black;
+  margin: 10px auto;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.profolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.works {
+  width: 28%;
+  height:33%;
+  margin: 15px 35px 40px 35px;;
+  padding: 5px;
+  background-color: white;
+  opacity: .9;
+  border-radius: 5px;
+  /* box-sizing: border-box; */
+  /* background-color:#f2f2f2; */
+}
+
+.workstitle {
+  margin: 5px auto;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+footer {
+  width:auto;
+  height:auto;
+  margin: 0px;
+  border:2px #C5D9E3;
+}
+
+.quicklink {
+  width:100%;
+  height:30vh;
+  background-color: #C5D9E3;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footli {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.footli a{
+  font-size:18px;
+  text-decoration: none;
+  color: #022F46;
+  margin: 5px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.button {
+    border: 1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+
+.experience {
+  font-family: 'Raleway', sans-serif;
+  margin: 0px;
+  border:0px;
+  padding:0px;
+  height:auto;
+  width:100%;
+  font-size : 18px;
+}
+
+.experience h1 {
+  font-size : 32px;
+  margin: 10px auto;
+  font-style: bold;
+}
+
+.experience h3 {
+  font-size : 21px;
+  margin: 10px auto;
+  font-style:  italic;
+}
+
+.experience li {
+  margin: 10px auto;
+}
+
+.secondli {
+    list-style-type: circle;
+    list-style-position: inside;
+    padding: 10px 0 10px 20px;
+    text-indent: .5em;
+}
+
+.tkb {
+  background-color: #F2F3F3;
+  padding: 15px 25px;
+  border: 2px #F2F3F3;
+}
+
+.foxconn {
+  padding: 15px 25px;
+}
+
+.bcd {
+  padding: 15px 25px;
+}
 
