@@ -425,8 +425,7 @@ padding: 15px 25px;
     margin: 0px;
   }
   main {
-    display: flex;
-    flex-direction: column;
+    display: block;
   }
 
 }
