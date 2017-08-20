@@ -354,7 +354,6 @@ padding: 15px 25px;
 .productall {
   display: flex;
   flex-direction: column;
-   
 }
 
 .productall img{
@@ -364,43 +363,43 @@ padding: 15px 25px;
 #productdetail {
   display: flex;
   flex-direction: row;
-  margin: 0px auto;
+  margin: 0px 0px;;
   justify-content: center;
 }
 
 .product1 {
   width:100%;
   border: 1px solid black;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
 }
 
 .product2 {
   width:100%;
   border: 1px solid black;
-  padding: 10px;
-   text-align: center;
+  padding: 20px;
+  text-align: center;
 }
 
 .product3 {
   width:100%;
   border: 1px solid black;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
 }
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 600px) {
   .navigation {
      display: flex;
-     flex-direction: column;
-     justify-content: center;
+     flex-direction: row;
+     justify-content: left;
   }
   
   .headbar {
-      height: 21vh;
+      height: 25vh;
       flex-direction: column;
-      justify-content: center;
+      align-items: center;
   }
   .profolio {
   display: flex;
@@ -420,6 +419,8 @@ padding: 15px 25px;
   }
   .headli a {
     padding:0px;
+    margin: 20px;
+    font-size: 3vh;
   }
   .dropdown-content {
     margin: 0px;
@@ -427,5 +428,10 @@ padding: 15px 25px;
   main {
     display: block;
   }
+  img {
+    height: auto; 
+    width: 80%; 
+    object-fit: contain;
+}
 
 }
