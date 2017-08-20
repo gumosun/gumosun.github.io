@@ -1,23 +1,24 @@
 
-
 section {
   height:auto;
 }
+
 .headbar{
+  color: white;
   width:100%;
-  height: 8vh;
+  height: 14vh;
   display: flex;
   flex-direction: row;
   margin: 0px;
   padding:10px 20px;
   justify-content: space-between;
-  background-color: #D6DCDC;
+  background-color: #013C4F;
   align-content: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 }
 .myname {
   font-family: 'Fjalla One', sans-serif;
-  font-size: 4vh;
+  font-size: 5vh;
   margin: auto 0px;
 }
 
@@ -26,13 +27,13 @@ section {
   margin: auto 40px;
 }
 .headli a{
-  color:black;
-  margin: 20px 20px;
-  font-size: 3vh;
+  color:white;
+  margin: 10px 10px;
+  font-size: 4vh;
   text-decoration: none;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: bold;
   justify-content: flex-end;
+  padding: 20px;
 }
 
 .content {
@@ -53,13 +54,20 @@ section {
 .textmain{ 
   margin: auto 30px auto 20px;;
 }
+
+.textmain h2 {
+  font-size: 5.5vh;
+  font-family: 'Fjalla One', sans-serif;
+  margin: 10px auto;
+}
+
 .textmain h3 {
-  font-size: 26px;
+  font-size: 4vh;
   font-family: 'Fjalla One', sans-serif;
   margin: 5px auto;
 }
 .textmain p {
-  font-size: 3.5vh;
+  font-size: 3.8vh;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 .section2 {
@@ -116,7 +124,7 @@ footer {
 .quicklink {
   width:100%;
   height:30vh;
-  background-color: #C5D9E3;
+  background-color: #BCEEFF;
   display: flex;
   text-decoration: none;
   justify-content: center;
@@ -152,8 +160,23 @@ footer {
     cursor: pointer;
     font-family: 'Raleway', sans-serif;
 }
+ 
+.button2 {
+    width:10%;
+    border: 1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    margin:20px auto;
+}
 
-.experience {
+.career {
   font-family: 'Raleway', sans-serif;
   margin: 0px;
   border:0px;
@@ -161,21 +184,25 @@ footer {
   height:auto;
   width:100%;
   font-size : 18px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ 
 }
 
-.experience h1 {
+.career h1 {
   font-size : 32px;
   margin: 10px auto;
   font-style: bold;
 }
 
-.experience h3 {
+.career h3 {
   font-size : 21px;
   margin: 10px auto;
   font-style:  italic;
 }
 
-.experience li {
+.career li {
   margin: 10px auto;
 }
 
@@ -189,14 +216,198 @@ footer {
 .tkb {
   background-color: #F2F3F3;
   padding: 15px 25px;
-  border: 2px #F2F3F3;
 }
 
 .foxconn {
   padding: 15px 25px;
 }
 
+
 .bcd {
   padding: 15px 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+.nyu {
+padding: 15px 25px;
+}
+
+.ga {
+  padding: 15px 25px;
+  background-color: #F2F3F3;
+}
+
+.tamkang {
+  padding: 15px 25px; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) 
+}
+
+.careerbar {
+  height:auto;
+  background-color:#F2F3F3;
+  font-family: 'Fjalla One', sans-serif;
+  font-size:24px; 
+  padding: 20px;
+  justify-content: center;
+  color: #016C6C;
+}
+
+.educationbar {
+    height:auto;
+  background-color:#F2F3F3;
+  font-family: 'Fjalla One', sans-serif;
+  font-size:24px; 
+  padding: 20px;
+  justify-content: center;
+   color: #016C6C;
+}
+
+#content {
+  padding: auto 20px auto 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 25px auto;
+    
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 5px 8px;
+    text-decoration: none;
+    display: block;
+    font-size:3vh;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #d9d9c9}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.projecttitle {
+  font-size: 2.5vh;
+  padding: 15px;
+  background-color: #c6d5d7;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.producttitle {
+  font-size: 3vh;
+  padding: 15px;
+  font-family: 'Raleway', sans-serif;
+  height: 28vh;
+  width: 50vh;
+  text-align: left;
+}
+
+.producttitle p {
+  margin: 0px 0px 10px 0px;
+}
+
+.maintitle {
+   font-family: 'Raleway', sans-serif;
+   text-align: center;
+   font-size: 4vh;
+   padding:15px;
+   background-color: #F2F3F3;
+   width:100%
+}
+
+.description {
+  background-color: #F2F3F3;
+  font-size: 3vh;
+   padding:10px;
+   font-family: 'Raleway', sans-serif;
+    text-align: center;
+    width:100%;
+}
+
+.projectcontent {
+  font-size: 3vh;
+  padding: 20px;
+}
+
+#image {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.wireframe {
+  text-align: center;
+}
+
+.productall {
+  display: flex;
+  flex-direction: column;
+   
+}
+
+.productall img{
+ margin:0px 10px;;
+}
+
+#productdetail {
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+  justify-content: center;
+}
+
+.product1 {
+  width:100%;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.product2 {
+  width:100%;
+  border: 1px solid black;
+  padding: 10px;
+   text-align: center;
+}
+
+.product3 {
+  width:100%;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+@media only screen and (max-width: 768px) {
+  .navigation {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+  }
+  
+  .headbar {
+      height: 15vh;
+  }
+  .profolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .works {
+    width: 70%;
+    margin: 10px;
+  }
+}
