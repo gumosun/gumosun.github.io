@@ -42,7 +42,7 @@ section {
   display: flex;
   flex: row;
   justify-content: center;
-  margin: 100px auto 100px auto;
+  margin: 50px auto 100px auto;
 }
 
 .img-me {
@@ -162,7 +162,6 @@ footer {
 }
  
 .button2 {
-    width:10%;
     border: 1px solid black;
     color: black;
     padding: 15px 32px;
@@ -279,8 +278,7 @@ padding: 15px 25px;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    margin: 25px auto;
-    
+    margin: 25px auto;   
 }
 
 /* Links inside the dropdown */
@@ -399,7 +397,9 @@ padding: 15px 25px;
   }
   
   .headbar {
-      height: 15vh;
+      height: 21vh;
+      flex-direction: column;
+      justify-content: center;
   }
   .profolio {
   display: flex;
@@ -410,4 +410,18 @@ padding: 15px 25px;
     width: 70%;
     margin: 10px;
   }
+
+  #productdetail {
+    flex-direction: column;
+  }
+  .section2 {
+    height: 25%;
+  }
+  .headli a {
+    padding:0px;
+  }
+  .dropdown-content {
+    margin: 0px;
+  }
+
 }
