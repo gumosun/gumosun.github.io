@@ -15,7 +15,11 @@
   background-color: #013C4F;
   align-content: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-flex: 0;
+  flex-shrink: 0;
+
 }
+
 .myname {
   font-family: 'Fjalla One', sans-serif;
   font-size: 5vh;
@@ -78,6 +82,7 @@
   background-color: #F2F3F3;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   justify-content: center;
+  -webkit-flex:1 0 auto;
 }
 
 h2 {
@@ -95,6 +100,8 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-shrink: 0;
+  -webkit-flex:1 0 auto;
 }
 
 .works {
@@ -105,8 +112,7 @@ h2 {
   background-color: white;
   opacity: .9;
   border-radius: 5px;
-  /* box-sizing: border-box; */
-  /* background-color:#f2f2f2; */
+  -webkit-flex:1 0 auto;
 }
 
 .workstitle {
@@ -130,6 +136,7 @@ footer {
   text-decoration: none;
   justify-content: center;
   flex-direction: column;
+  -webkit-flex:1 0 auto;
 }
 
 .footli {
@@ -402,17 +409,29 @@ padding: 15px 25px;
     flex-direction: column;
     align-items: center;
   }
+
   .profolio {
-   height: auto;
+  height: 150vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  -webkit-justify-content: center;
+  -webkit-box-align: center;
+  -webkit-flex-direction: column;
+  display: -webkit-flex;
+  -webkit-flex-basis: auto;
+  padding: 50px;
   }
 
   .works {
-    width: 70%;
-    margin: 10px;
+  width: auto;
+  margin: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  -webkit-align-items:center;
+  -webkit-flex-direction: column;
   }
+
 
   #productdetail {
     flex-direction: column;
@@ -434,11 +453,14 @@ padding: 15px 25px;
     margin: 0px;
   }
 
-  img {
-    height: auto; 
+  img { 
     width: 80%; 
     object-fit: contain;
     margin: 0px auto;
+    padding:0px;
 }
+  #image {
+    border: none;
+  }
 
 }
