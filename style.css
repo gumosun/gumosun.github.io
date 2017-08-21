@@ -20,6 +20,10 @@
 
 }
 
+p {
+  margin: 15px;
+}
+
 .myname {
   font-family: 'Fjalla One', sans-serif;
   font-size: 5vh;
@@ -62,13 +66,13 @@
 .textmain h2 {
   font-size: 5.5vh;
   font-family: 'Fjalla One', sans-serif;
-  margin: 10px auto;
+  margin: 25px auto;
 }
 
 .textmain h3 {
   font-size: 4vh;
   font-family: 'Fjalla One', sans-serif;
-  margin: 5px auto;
+  margin: 20px auto;
 }
 .textmain p {
   font-size: 3.8vh;
@@ -401,14 +405,14 @@ padding: 15px 25px;
   }
   
   .headbar {
-     width: 95vw;
+    width: 95vw;
     height: 25vh;
     flex-direction: column;
     align-items: center;
   }
 
   .profolio {
-  height: 120vh;
+  height: 140vh;
   display: flex;
   flex-direction: column;
   align-items: center;
