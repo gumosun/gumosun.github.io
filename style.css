@@ -66,17 +66,18 @@ p {
 .textmain h2 {
   font-size: 5.5vh;
   font-family: 'Fjalla One', sans-serif;
-  margin: 25px auto;
+  margin: 15px auto;
 }
 
 .textmain h3 {
   font-size: 4vh;
   font-family: 'Fjalla One', sans-serif;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 .textmain p {
   font-size: 3.8vh;
   font-family: 'Open Sans Condensed', sans-serif;
+  line-height: 1.4em;
 }
 .section2 {
   height:auto;
@@ -343,6 +344,7 @@ padding: 15px 25px;
    font-family: 'Raleway', sans-serif;
     text-align: center;
     width: 100vw;
+    
 }
 
 .projectcontent {
@@ -353,6 +355,7 @@ padding: 15px 25px;
 #image {
   border: 2px solid black;
   border-radius: 5px;
+  margin: 10px;
 }
 
 .wireframe {
@@ -395,6 +398,59 @@ padding: 15px 25px;
   padding: 20px;
   text-align: center;
 }
+
+.webdev {
+  background: #eeeeee;
+  width: 100%;
+  margin:0px;
+}
+
+.webproject {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.webcontent {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.webimage {
+  display: flex;
+  flex-direction: column;
+}
+
+.webbutton {
+  display: flex;
+  flex-direction: row;
+}
+
+.webbutton a{
+  margin: 20px;
+}
+
+.webtitle {
+  font-size: 6vh;
+  font-family: 'Raleway', sans-serif;
+  margin: 20px;
+}
+
+.webdescription {
+  font-size: 3vh;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.webdescription p{
+ margin: 15px;
+ line-height: 1.5em;
+}
+
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
 @media all and (max-width: 768px) {
@@ -402,6 +458,26 @@ padding: 15px 25px;
      display: flex;
      flex-direction: row;
      justify-content: left;
+  }
+  
+  .webproject {
+    width: 100%;
+    flex-direction: column;
+    padding:0px;
+    margin:0px;
+    align-items: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  }
+
+  .webtitle {
+    font-size: 4vh;
+    width:100vw;
+  }
+
+  .webdescription {
+    font-size: 2.5vh;
+    width:100%;
   }
   
   .headbar {
