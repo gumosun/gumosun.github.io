@@ -1,107 +1,3 @@
-@media all and (max-width: 780px) {
-  .navigation {
-     display: flex;
-     flex-direction: row;
-     justify-content: left;
-     margin: auto 15px;
-  }
-  
-  .webproject {
-    width: 100%;
-    flex-direction: column;
-    padding:0px;
-    margin:0px;
-    align-items: center;
-    -webkit-align-items: center;
-   -webkit-box-align: center;
-   -webkit-flex-direction: column;
-  }
-
-   .webcontent {
-    width:95%;
-  }
-
-  .webtitle {
-    font-size: 4vh;
-  }
-
-  .webdescription {
-    font-size: 2.5vh;
-  }
-  
-  .headbar {
-    width: 93vw;
-    height: 25vh;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .profolio {
-  height: 140vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  -webkit-justify-content: center;
-  -webkit-box-align: center;
-  -webkit-flex-direction: column;
-  display: -webkit-flex;
-  -webkit-flex-basis: auto;
-  padding: 40px;
-  }
-
-  .works {
-  width: auto;
-  margin: 10px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  -webkit-align-items:center;
-  -webkit-flex-direction: column;
-  }
-
-  .description {
-    width:95%;
-  }
-
-  #productdetail {
-    flex-direction: column;
-  }
-
-  .section2 {
-    height: auto;
-    margin: 50px auto;
-    padding: 50px auto;
-  }
-
-  .headli a {
-    padding:0px;
-    margin: 15px;
-    font-size: 4.4vw;
-  }
-
-  .dropdown-content {
-    margin: 0px;
-  }
-
-  img { 
-    width: 90%; 
-    object-fit: contain;
-    
-}
-   #image {
-    border: none;
-  } 
-
-  .button, .button2 {
-    width:40%;
-  }
-
-  .experiencebar {
-    font-size: 4vw;
-  }
-
-}
-
-
  /* desktop version */
 
 .section1 {
@@ -549,6 +445,108 @@ padding: 15px 25px;
  line-height: 1.5em;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
+@media all and (max-width: 780px) {
+  .navigation {
+     display: flex;
+     flex-direction: row;
+     justify-content: left;
+     margin: auto 15px;
+  }
+  
+  .webproject {
+    width: 100%;
+    flex-direction: column;
+    padding:0px;
+    margin:0px;
+    align-items: center;
+    -webkit-align-items: center;
+   -webkit-box-align: center;
+   -webkit-flex-direction: column;
+  }
+
+   .webcontent {
+    width:95%;
+  }
+
+  .webtitle {
+    font-size: 4vh;
+  }
+
+  .webdescription {
+    font-size: 2.5vh;
+  }
+  
+  .headbar {
+    width: 93vw;
+    height: 25vh;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profolio {
+  height: 140vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -webkit-justify-content: center;
+  -webkit-box-align: center;
+  -webkit-flex-direction: column;
+  display: -webkit-flex;
+  -webkit-flex-basis: auto;
+  padding: 40px;
+  }
+
+  .works {
+  width: auto;
+  margin: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  -webkit-align-items:center;
+  -webkit-flex-direction: column;
+  }
+
+  .description {
+    width:95%;
+  }
+
+  #productdetail {
+    flex-direction: column;
+  }
+
+  .section2 {
+    height: auto;
+    margin: 50px auto;
+    padding: 50px auto;
+  }
+
+  .headli a {
+    padding:0px;
+    margin: 15px;
+    font-size: 4.4vw;
+  }
+
+  .dropdown-content {
+    margin: 0px;
+  }
+
+  img { 
+    width: 90%; 
+    object-fit: contain;
+    
+}
+   #image {
+    border: none;
+  } 
+
+  .button, .button2 {
+    width:40%;
+  }
+
+  .experiencebar {
+    font-size: 4vw;
+  }
+
+}
+
 
 
