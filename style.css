@@ -11,7 +11,7 @@
   margin: 0px;
   padding:10px 20px;
   justify-content: space-between;
-  background-color: #013C4F;
+  background-color: #121212;
   align-content: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   -webkit-flex: 0;
@@ -132,7 +132,7 @@ footer {
 .quicklink {
   width: 100vw;
   height:30vh;
-  background-color: #BCEEFF;
+  background-color: #232323;
   display: flex;
   text-decoration: none;
   justify-content: center;
@@ -152,7 +152,7 @@ footer {
 .footli a{
   font-size:18px;
   text-decoration: none;
-  color: #022F46;
+  color: white;
   margin: 5px;
   font-family: 'Raleway', sans-serif;
 }
@@ -250,24 +250,14 @@ padding: 15px 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) 
 }
 
-.careerbar {
+.experiencebar {
   height:auto;
   background-color:#F2F3F3;
   font-family: 'Fjalla One', sans-serif;
   font-size:24px; 
   padding: 20px;
-  justify-content: center;
+  text-align: center;
   color: #016C6C;
-}
-
-.educationbar {
-    height:auto;
-  background-color:#F2F3F3;
-  font-family: 'Fjalla One', sans-serif;
-  font-size:24px; 
-  padding: 20px;
-  justify-content: center;
-   color: #016C6C;
 }
 
 #content {
@@ -310,7 +300,7 @@ padding: 15px 25px;
 .projecttitle {
   font-size: 2.5vh;
   padding: 15px;
-  background-color: #c6d5d7;
+  background-color: #cdcdcd;
   font-family: 'Fjalla One', sans-serif;
 }
 
@@ -478,9 +468,13 @@ padding: 15px 25px;
     font-size: 2.5vh;
     width:100%;
   }
+
+  .webcontent {
+    width:90%;
+  }
   
   .headbar {
-    width: 95vw;
+    width: 93vw;
     height: 25vh;
     flex-direction: column;
     align-items: center;
@@ -522,7 +516,7 @@ padding: 15px 25px;
   .headli a {
     padding:0px;
     margin: 15px;
-    font-size: 4vw;
+    font-size: 4.4vw;
   }
 
   .dropdown-content {
