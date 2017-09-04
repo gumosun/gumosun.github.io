@@ -444,7 +444,7 @@ padding: 15px 25px;
  line-height: 1.5em;
 }
 
-@media all and (max-width: 780px) {
+@media screen and (max-width: 780px){
  .headbar {
     width: 93vw;
     height: 25vh;
