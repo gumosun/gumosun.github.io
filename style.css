@@ -455,7 +455,7 @@ padding: 15px 25px;
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 870px) {
   .navigation {
      display: flex;
      flex-direction: row;
