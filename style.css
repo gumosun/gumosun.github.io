@@ -1,4 +1,3 @@
-
 .section1 {
   height:auto;
 }
@@ -12,7 +11,7 @@
   margin: 0px;
   padding:10px 20px;
   justify-content: space-between;
-  background-color: #020202;
+  background-color: #013C4F;
   align-content: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   -webkit-flex: 0;
@@ -133,7 +132,7 @@ footer {
 .quicklink {
   width: 100vw;
   height:30vh;
-  background-color: #343434;
+  background-color: #BCEEFF;
   display: flex;
   text-decoration: none;
   justify-content: center;
@@ -153,7 +152,7 @@ footer {
 .footli a{
   font-size:18px;
   text-decoration: none;
-  color: white;
+  color: #022F46;
   margin: 5px;
   font-family: 'Raleway', sans-serif;
 }
@@ -169,7 +168,6 @@ footer {
     margin: 4px 2px;
     cursor: pointer;
     font-family: 'Raleway', sans-serif;
-    width:10%;
 }
  
 .button2 {
@@ -184,7 +182,6 @@ footer {
     cursor: pointer;
     font-family: 'Raleway', sans-serif;
     margin:20px auto;
-    width:15%;
 }
 
 .career {
@@ -257,9 +254,9 @@ padding: 15px 25px;
   height:auto;
   background-color:#F2F3F3;
   font-family: 'Fjalla One', sans-serif;
-  font-size:2.7vw;; 
+  font-size:24px; 
   padding: 20px;
-  text-align: center;
+  justify-content: center;
   color: #016C6C;
 }
 
@@ -267,10 +264,10 @@ padding: 15px 25px;
     height:auto;
   background-color:#F2F3F3;
   font-family: 'Fjalla One', sans-serif;
-  font-size:2.7vw; 
+  font-size:24px; 
   padding: 20px;
-  text-align: center;
-  color: #016C6C;
+  justify-content: center;
+   color: #016C6C;
 }
 
 #content {
@@ -438,18 +435,18 @@ padding: 15px 25px;
 }
 
 .webtitle {
-  font-size: 5vh;
+  font-size: 6vh;
   font-family: 'Raleway', sans-serif;
-  margin: 10px;
+  margin: 20px;
 }
 
 .webdescription {
-  font-size: 2.4vh;
+  font-size: 3vh;
   font-family: 'Fjalla One', sans-serif;
 }
 
 .webdescription p{
- margin: 10px;
+ margin: 15px;
  line-height: 1.5em;
 }
 
@@ -468,26 +465,22 @@ padding: 15px 25px;
     padding:0px;
     margin:0px;
     align-items: center;
-    text-align: left;
   -webkit-align-items: center;
   -webkit-box-align: center;
   }
 
   .webtitle {
     font-size: 4vh;
-    width:98%;
-  }
-
-  .webcontent {
-    width:90%;
+    width:100vw;
   }
 
   .webdescription {
     font-size: 2.5vh;
+    width:100%;
   }
   
   .headbar {
-    width: 93vw;
+    width: 95vw;
     height: 25vh;
     flex-direction: column;
     align-items: center;
@@ -529,7 +522,7 @@ padding: 15px 25px;
   .headli a {
     padding:0px;
     margin: 15px;
-    font-size: 4.4vw;
+    font-size: 4vw;
   }
 
   .dropdown-content {
@@ -544,13 +537,5 @@ padding: 15px 25px;
    #image {
     border: none;
   } 
-
-  .button, .button2 {
-    width:40%;
-  }
-
-  .description {
-    width:95vw;
-  }
 
 }
