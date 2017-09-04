@@ -468,8 +468,8 @@ padding: 15px 25px;
     padding:0px;
     margin:0px;
     align-items: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
+   -webkit-align-items: center;
+   -webkit-box-align: center;
   }
 
   .webtitle {
@@ -478,7 +478,7 @@ padding: 15px 25px;
   }
 
   .webcontent {
-    width:95%;
+    width:100%;
   }
 
   .webdescription {
