@@ -468,7 +468,6 @@ padding: 15px 25px;
     padding:0px;
     margin:0px;
     align-items: center;
-    text-align: left;
   -webkit-align-items: center;
   -webkit-box-align: center;
   }
@@ -479,7 +478,7 @@ padding: 15px 25px;
   }
 
   .webcontent {
-    width:90%;
+    width:95%;
   }
 
   .webdescription {
@@ -550,7 +549,7 @@ padding: 15px 25px;
   }
 
   .description {
-    width:95vw;
+    width:95%;
   }
 
 }
