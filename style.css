@@ -1,22 +1,31 @@
+body {
+  width:100%;
+}
+
 .section1 {
   height:auto;
+  background-image: url('./images/mybackground.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  width:100%;
+  margin:0px;
 }
 
 .headbar{
   color: white;
-  width: 100vw;
-  height: 14vh;
+  width: 100%;
+  height: 16vh;
   display: flex;
   flex-direction: row;
   margin: 0px;
-  padding:10px 20px;
+  padding:0px;
   justify-content: space-between;
   background-color: #121212;
   align-content: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   -webkit-flex: 0;
   flex-shrink: 0;
-
 }
 
 p {
@@ -24,79 +33,79 @@ p {
 }
 
 .myname {
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 5vh;
-  margin: auto 0px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 7.5vh;
+  margin: auto 30px;
 }
 
 .navigation{
   display: flex;
   margin: auto 40px;
 }
+
 .headli a{
   color:white;
   margin: 10px 10px;
   font-size: 4vh;
   text-decoration: none;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Dosis', sans-serif;
   justify-content: flex-end;
   padding: 20px;
 }
 
 .content {
-  width:auto;
-  height:auto;
+  width: auto;
+  height: auto;
   display: flex;
   flex: row;
-  justify-content: center;
-  margin: 50px auto 100px auto;
+  justify-content: flex-end;
+  margin: 0px auto 0px auto;
+  text-align: left;
 }
 
-.img-me {
-    border: 5px solid white;
-    margin: 10% auto;
-    border-radius: 5%;
-    }
+
 
 .textmain{ 
-  margin: auto 30px auto 20px;;
+  margin: 70px 20px auto 40px;
+  text-align: center;
 }
 
 .textmain h2 {
   font-size: 5.5vh;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Dosis', sans-serif;
   margin: 15px auto;
+  border-bottom:  thin solid black;
 }
 
 .textmain h3 {
-  font-size: 4vh;
-  font-family: 'Fjalla One', sans-serif;
+  font-size: 5.5vh;
+  font-family: 'Dosis', sans-serif;
   margin: 10px auto;
+  text-align: center;
 }
 .textmain p {
-  font-size: 3.8vh;
+  font-size: 3.5vh;
   font-family: 'Open Sans Condensed', sans-serif;
   line-height: 1.4em;
 }
 .section2 {
   height:auto;
   width: auto;
-  margin: 30px 0px 0px 0px;
+  margin: 0px;
   text-align: center;
   background-color: #F2F3F3;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   justify-content: center;
- 
 }
 
-h2 {
+.myworks h2 {
   width: 100%;
   border-bottom: 1px solid black;
   text-align: center;
   font-size:25px;
+  padding: 20px 0px;;
   color:black;
-  margin: 10px auto;
-  padding: 0;
+  margin: 0px auto;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -130,7 +139,7 @@ footer {
 }
 
 .quicklink {
-  width: 100vw;
+  width: 100%;
   height:30vh;
   background-color: #232323;
   display: flex;
@@ -150,11 +159,11 @@ footer {
 }
 
 .footli a{
-  font-size:18px;
+  font-size:3.5vh;
   text-decoration: none;
   color: white;
   margin: 5px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .button {
@@ -253,8 +262,8 @@ padding: 15px 25px;
 .experiencebar {
   height:auto;
   background-color:#F2F3F3;
-  font-family: 'Fjalla One', sans-serif;
-  font-size:24px; 
+  font-family: 'Dosis', sans-serif;
+  font-size:4vh; 
   padding: 20px;
   text-align: center;
   color: #016C6C;
@@ -301,13 +310,13 @@ padding: 15px 25px;
   font-size: 2.5vh;
   padding: 15px;
   background-color: #cdcdcd;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .producttitle {
-  font-size: 3vh;
+  font-size: 3.3vh;
   padding: 15px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Dosis', sans-serif;
   height: 28vh;
   width: 50vh;
   text-align: left;
@@ -330,7 +339,7 @@ padding: 15px 25px;
   background-color: #F2F3F3;
   font-size: 3vh;
    padding:10px;
-   font-family: 'Raleway', sans-serif;
+   font-family: 'Open Sans Condensed', sans-serif;
     text-align: center;
     width: 100vw;
     
@@ -431,8 +440,8 @@ padding: 15px 25px;
 }
 
 .webdescription {
-  font-size: 3vh;
-  font-family: 'Fjalla One', sans-serif;
+  font-size: 3.5vh;
+  font-family: 'Dosis', sans-serif;
 }
 
 .webdescription p{
@@ -465,7 +474,7 @@ padding: 15px 25px;
   }
 
   .webdescription {
-    font-size: 2.5vh;
+    font-size: 3vh;
     width:100%;
   }
 
@@ -515,8 +524,8 @@ padding: 15px 25px;
 
   .headli a {
     padding:0px;
-    margin: 15px;
-    font-size: 4.4vw;
+    margin: 10px;
+    font-size: 4vw;
   }
 
   .dropdown-content {
@@ -531,5 +540,36 @@ padding: 15px 25px;
    #image {
     border: none;
   } 
+
+  .section1 {
+    background-image: none;
+  }
+
+  .content {
+    justify-content: center;
+  }
+
+  .textmain {
+    margin: 10px auto;    
+  }
+
+  .textmain p {
+  font-size: 3.3vh;
+  font-family: 'Open Sans Condensed', sans-serif;
+  line-height: 1.3em;
+} 
+
+.textmain h2 {
+  font-size: 4.5vh;
+  font-family: 'Open Sans Condensed', sans-serif;
+  line-height: 1.3em;
+}
+
+.textmain h3 {
+  font-size: 4.8vh;
+  font-family: 'Dosis', sans-serif;
+  margin: 10px auto;
+  text-align: center;
+}
 
 }
