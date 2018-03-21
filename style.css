@@ -66,23 +66,24 @@ p {
 .textmain{ 
   margin: 70px 20px auto 40px;
   text-align: center;
+  width:55%;
 }
 
 .textmain h2 {
-  font-size: 5.5vh;
+  font-size: 5vh;
   font-family: 'Dosis', sans-serif;
   margin: 15px auto;
   border-bottom:  thin solid black;
 }
 
 .textmain h3 {
-  font-size: 5.5vh;
+  font-size: 5vh;
   font-family: 'Dosis', sans-serif;
   margin: 10px auto;
   text-align: center;
 }
 .textmain p {
-  font-size: 3.5vh;
+  font-size: 3.2vh;
   font-family: 'Open Sans Condensed', sans-serif;
   line-height: 1.4em;
 }
@@ -237,6 +238,10 @@ footer {
   padding: 15px 25px;
 }
 
+.cigna {
+  padding: 15px 25px;
+  background-color: #F2F3F3;
+}
 
 .bcd {
   padding: 15px 25px;
@@ -454,7 +459,7 @@ padding: 15px 25px;
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 840px) {
   .navigation {
      display: flex;
      flex-direction: row;
@@ -553,7 +558,8 @@ padding: 15px 25px;
   }
 
   .textmain {
-    margin: 10px auto;    
+    margin: 10px auto; 
+    width:95%;   
   }
 
   .textmain p {
