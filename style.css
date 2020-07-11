@@ -9,7 +9,7 @@ body {
   background-repeat: no-repeat;
   height: 700px;
   width:100%;
-  margin:0px;
+  margin: auto;
 }
 
 .headbar{
@@ -464,7 +464,7 @@ padding: 15px 25px;
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
-@media all and (max-width: 840px) {
+@media all and (max-width: 1080px) {
   .navigation {
      display: flex;
      flex-direction: row;
