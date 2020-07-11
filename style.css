@@ -564,11 +564,11 @@ padding: 15px 25px;
 
   .textmain {
     margin: 10px auto; 
-    width:95%;   
+    width:99%;   
   }
 
   .textmain p {
-  font-size: 3.3vh;
+  font-size: 3vh;
   font-family: 'Open Sans Condensed', sans-serif;
   line-height: 1.3em;
 } 
